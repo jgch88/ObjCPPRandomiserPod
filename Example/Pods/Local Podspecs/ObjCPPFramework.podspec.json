@@ -23,5 +23,6 @@
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
   },
-  "source_files": "ObjCPPFramework/Classes/**/*"
+  "source_files": "ObjCPPFramework/Classes/**/*",
+  "public_header_files": "ObjCPPFramework/Classes/**/*.h"
 }

@@ -1,6 +1,0 @@
-framework module Pods_ObjCPPFramework_Tests {
-  umbrella header "Pods-ObjCPPFramework_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
