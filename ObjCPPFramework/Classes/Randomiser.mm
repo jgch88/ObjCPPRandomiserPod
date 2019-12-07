@@ -1,13 +1,12 @@
 #include "Randomiser.h"
 #include <cstdlib>
 #include <iostream>
-Randomiser::Randomiser()
-{
 
-};
+@implementation Randomiser
 
-int Randomiser::generate()
-{
+- (int)generate {
     srand(time(NULL));
     return rand();
 }
+
+@end

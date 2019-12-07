@@ -1,5 +1,7 @@
-class Randomiser {
-    public:
-        Randomiser();
-        int generate();
-};
+#import <Foundation/Foundation.h>
+
+@interface Randomiser : NSObject
+
+- (int)generate;
+
+@end

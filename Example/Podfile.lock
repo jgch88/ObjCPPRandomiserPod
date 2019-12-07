@@ -1,5 +1,5 @@
 PODS:
-  - ObjCPPFramework (0.0.4)
+  - ObjCPPFramework (0.0.6)
 
 DEPENDENCIES:
   - ObjCPPFramework (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ObjCPPFramework: fc1328fe719965a358d82d7fe3446fd13852187f
+  ObjCPPFramework: 9a8c9aab990fcc6ebcdfaae66ff2f038e7b71fb3
 
 PODFILE CHECKSUM: c05402562096beb062eff97923f5f2fb3f4fda78
 

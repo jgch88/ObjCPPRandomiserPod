@@ -1,6 +1,6 @@
 {
   "name": "ObjCPPFramework",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "summary": "Randomiser implemented in CPP",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jgch-tw/ObjCPPFramework",
@@ -13,16 +13,14 @@
   },
   "source": {
     "git": "https://github.com/jgch88/ObjCPPRandomiserPod.git",
-    "tag": "0.0.4"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "preserve_paths": "ObjCPPFramework/Classes/module.modulemap",
   "module_map": "ObjCPPFramework/Classes/module.modulemap",
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
   },
-  "source_files": "ObjCPPFramework/Classes/**/*",
-  "public_header_files": "ObjCPPFramework/Classes/**/*.h"
+  "source_files": "ObjCPPFramework/Classes/**/*"
 }

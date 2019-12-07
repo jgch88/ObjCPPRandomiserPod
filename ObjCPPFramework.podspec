@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ObjCPPFramework'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'Randomiser implemented in CPP'
 
   s.description      = <<-DESC
@@ -14,10 +14,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.preserve_path = 'ObjCPPFramework/Classes/module.modulemap'
   s.module_map = 'ObjCPPFramework/Classes/module.modulemap'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.source_files = 'ObjCPPFramework/Classes/**/*'
-  s.public_header_files = 'ObjCPPFramework/Classes/**/*.h'
   
 end

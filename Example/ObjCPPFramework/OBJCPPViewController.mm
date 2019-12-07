@@ -22,8 +22,8 @@
 }
 
 - (IBAction)printRandomNumber:(UIButton *)sender {
-    Randomiser *r = new Randomiser();
-    NSLog(@"%d", r->generate());
+    Randomiser *r = [Randomiser new];
+    NSLog(@"%d", [r generate]);
 }
 
 - (void)didReceiveMemoryWarning
