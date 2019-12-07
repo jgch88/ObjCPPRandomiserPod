@@ -18,9 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)printRandomNumber:(UIButton *)sender {
     Randomiser *r = new Randomiser();
     NSLog(@"%d", r->generate());
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
