@@ -1,6 +1,4 @@
-framework module ObjCPPFramework {
-  umbrella header "ObjCPPFramework-umbrella.h"
-
-  export *
-  module * { export * }
+module ObjCPPFramework {
+    header "Randomiser.h"
+    export *
 }
