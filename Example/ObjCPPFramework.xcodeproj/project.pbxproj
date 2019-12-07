@@ -14,7 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* OBJCPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* OBJCPPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* OBJCPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* OBJCPPViewController.m */; };
+		6003F5A7195388D20070C39A /* OBJCPPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* OBJCPPViewController.mm */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -52,7 +52,7 @@
 		6003F59C195388D20070C39A /* OBJCPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBJCPPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* OBJCPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJCPPAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* OBJCPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBJCPPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* OBJCPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJCPPViewController.m; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* OBJCPPViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OBJCPPViewController.mm; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ObjCPPFramework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCPPFramework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		784C9082C7D6192F9094D3B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		784C9082C7D6192F9094D3B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		920136168C00890DD3341B5F /* ObjCPPFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ObjCPPFramework.podspec; path = ../ObjCPPFramework.podspec; sourceTree = "<group>"; };
-		A1D42CD8B6103EB398905C84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		920136168C00890DD3341B5F /* ObjCPPFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ObjCPPFramework.podspec; path = ../ObjCPPFramework.podspec; sourceTree = "<group>"; };
+		A1D42CD8B6103EB398905C84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A6221CCF6BAE0197CF1AC526 /* Pods-ObjCPPFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCPPFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-ObjCPPFramework_Example/Pods-ObjCPPFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6CE05FBBDF7AC099733D0A3 /* Pods-ObjCPPFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCPPFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ObjCPPFramework_Tests/Pods-ObjCPPFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 				6003F59D195388D20070C39A /* OBJCPPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* OBJCPPViewController.h */,
-				6003F5A6195388D20070C39A /* OBJCPPViewController.m */,
+				6003F5A6195388D20070C39A /* OBJCPPViewController.mm */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +193,6 @@
 				E6CE05FBBDF7AC099733D0A3 /* Pods-ObjCPPFramework_Tests.debug.xcconfig */,
 				47CCBF68E1560B1C5F8BC1C3 /* Pods-ObjCPPFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* OBJCPPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* OBJCPPViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* OBJCPPViewController.mm in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
