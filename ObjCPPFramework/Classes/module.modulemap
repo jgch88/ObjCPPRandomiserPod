@@ -1,0 +1,4 @@
+module ObjCPPFramework {
+    header "Randomiser.h"
+    export *
+}
