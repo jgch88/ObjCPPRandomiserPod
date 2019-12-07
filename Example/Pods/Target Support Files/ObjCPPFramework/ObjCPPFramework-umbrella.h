@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Randomiser.h"
 
 FOUNDATION_EXPORT double ObjCPPFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjCPPFrameworkVersionString[];
