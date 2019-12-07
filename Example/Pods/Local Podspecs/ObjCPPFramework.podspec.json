@@ -1,0 +1,22 @@
+{
+  "name": "ObjCPPFramework",
+  "version": "0.1.0",
+  "summary": "A short description of ObjCPPFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jgch-tw/ObjCPPFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jgch-tw": "justin.goh@thoughtworks.com"
+  },
+  "source": {
+    "git": "https://github.com/jgch-tw/ObjCPPFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ObjCPPFramework/Classes/**/*"
+}

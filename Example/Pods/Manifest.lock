@@ -1,0 +1,16 @@
+PODS:
+  - ObjCPPFramework (0.1.0)
+
+DEPENDENCIES:
+  - ObjCPPFramework (from `../`)
+
+EXTERNAL SOURCES:
+  ObjCPPFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjCPPFramework: 7db723e9ff2daa93c2d679eb6fbc306da4713026
+
+PODFILE CHECKSUM: 575462fe4c5a3134b778f607a204e37a616d65cf
+
+COCOAPODS: 1.8.4
