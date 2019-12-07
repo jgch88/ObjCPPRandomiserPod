@@ -7,6 +7,7 @@
 //
 
 #import "OBJCPPViewController.h"
+#import "Randomiser.h"
 
 @interface OBJCPPViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    Randomiser *r = new Randomiser();
+    NSLog(@"%d", r->generate());
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
