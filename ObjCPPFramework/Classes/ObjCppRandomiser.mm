@@ -1,8 +1,8 @@
-#include "Randomiser.h"
+#include "ObjCppRandomiser.h"
 #include <cstdlib>
 #include <iostream>
 
-@implementation Randomiser
+@implementation ObjCppRandomiser
 
 - (int)generate {
     srand(time(NULL));

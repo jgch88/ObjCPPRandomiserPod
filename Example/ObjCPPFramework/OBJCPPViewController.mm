@@ -7,7 +7,7 @@
 //
 
 #import "OBJCPPViewController.h"
-#import "Randomiser.h"
+#import "ObjCppRandomiser.h"
 
 @interface OBJCPPViewController ()
 
@@ -22,7 +22,7 @@
 }
 
 - (IBAction)printRandomNumber:(UIButton *)sender {
-    Randomiser *r = [Randomiser new];
+    ObjCppRandomiser *r = [ObjCppRandomiser new];
     NSLog(@"%d", [r generate]);
 }
 

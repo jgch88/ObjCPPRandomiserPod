@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0D66C62006E86FA616427B3834E01E5A /* Pods-ObjCPPFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B5AAC1B55782E264BC1FDAE82156 /* Pods-ObjCPPFramework_Tests-dummy.m */; };
+		20471D3BB230B6052EAF43A72EFEF350 /* ObjCPPFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E477673D69D897EE5B5A46A9DB1411B /* ObjCPPFramework-dummy.m */; };
+		5B60A0CA5038FB422E111966FBDEB854 /* ObjCppRandomiser.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1DBE7590C87DF1AC85220851ED2767 /* ObjCppRandomiser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64BC69CFA17E3ED7D85464F0C61EB662 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 6846980A855F04A14BF221F8841AA0A1 /* module.modulemap */; };
 		7AB17F5C671EA4E77B7E5345966E2774 /* Pods-ObjCPPFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 901B5D256FA923B5D6C5C3BF867BB6FD /* Pods-ObjCPPFramework_Example-dummy.m */; };
-		832ADB1E1952D74C68FA5491A63C0613 /* ObjCPPFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADD9557D25A2C1F64BCDCC1468A109 /* ObjCPPFramework-dummy.m */; };
-		8BA6A9FC7D1D0778A58CEF5FAE6A29F3 /* Randomiser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9365BE5FA3722DBAF744F56FD01FC1E7 /* Randomiser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A88AD87774C751F851975BBB352F2D9E /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 6A877AFE9C1DD00DB44A79BD23AF702F /* module.modulemap */; };
-		AD171F3F76178F5148247A4BEEB07E56 /* Randomiser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58A558920359AC2C7EACEE024E1313A8 /* Randomiser.mm */; };
+		8D651BB48C64EFFA2D6E8E3AFBB84157 /* Randomiser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D5ABC8C6B17C7A906733825C61A9144 /* Randomiser.cpp */; };
+		C8FB7402A36C015EB52FBCD4F68140C4 /* ObjCppRandomiser.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADB8736E7C8E84D904AAF4A1186A4660 /* ObjCppRandomiser.mm */; };
+		EB38F8C535C0EAFA744F59F8FDE819F1 /* Randomiser.h in Headers */ = {isa = PBXBuildFile; fileRef = A4978B0852EAA3FB663A220CA75C827F /* Randomiser.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +35,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E4A54B0FF39736B2FE120160DA1CC9 /* ObjCPPFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCPPFramework-prefix.pch"; sourceTree = "<group>"; };
+		0D5ABC8C6B17C7A906733825C61A9144 /* Randomiser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Randomiser.cpp; path = ObjCPPFramework/Classes/Randomiser.cpp; sourceTree = "<group>"; };
+		2E477673D69D897EE5B5A46A9DB1411B /* ObjCPPFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjCPPFramework-dummy.m"; sourceTree = "<group>"; };
+		38BBF9E09C7699CF9AEBB17C367A5B7D /* ObjCPPFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjCPPFramework.modulemap; sourceTree = "<group>"; };
 		40CC4C88FE571C9FD5D1A73AA30471A3 /* libObjCPPFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libObjCPPFramework.a; path = libObjCPPFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A558920359AC2C7EACEE024E1313A8 /* Randomiser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Randomiser.mm; path = ObjCPPFramework/Classes/Randomiser.mm; sourceTree = "<group>"; };
+		582BFE330690F0545BF56AA887E8C9DB /* ObjCPPFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ObjCPPFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		63C14E6A24F573234F8B9F41F655C316 /* Pods-ObjCPPFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCPPFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66BCA987B9D6CB53385BF954067B0E12 /* Pods-ObjCPPFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCPPFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A877AFE9C1DD00DB44A79BD23AF702F /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = ObjCPPFramework/Classes/module.modulemap; sourceTree = "<group>"; };
+		6846980A855F04A14BF221F8841AA0A1 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = ObjCPPFramework/Classes/module.modulemap; sourceTree = "<group>"; };
 		790CAE3448CBE6390E23EE37ED0C1F26 /* Pods-ObjCPPFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCPPFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79673C4A74F6492B4BD8A736057761AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8594F58218D731C35B4A4B78FBBF64EF /* libPods-ObjCPPFramework_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ObjCPPFramework_Tests.a"; path = "libPods-ObjCPPFramework_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC14E153552C2AEE88D87F4A81BC311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		901B5D256FA923B5D6C5C3BF867BB6FD /* Pods-ObjCPPFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCPPFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		9365BE5FA3722DBAF744F56FD01FC1E7 /* Randomiser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Randomiser.h; path = ObjCPPFramework/Classes/Randomiser.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40EC52C9A9D12E103815DB884DCF94B /* Pods-ObjCPPFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCPPFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B742C245AE170915EF7699F8EC656A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BBFB9DAF63731D8D95E2F280E293CAE7 /* ObjCPPFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ObjCPPFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BEDB6CDE9B4797CF10A71033FFDF5C4C /* ObjCPPFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjCPPFramework.xcconfig; sourceTree = "<group>"; };
+		A4978B0852EAA3FB663A220CA75C827F /* Randomiser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Randomiser.h; path = ObjCPPFramework/Classes/Randomiser.h; sourceTree = "<group>"; };
+		ABB65407D9C2CCEC2EA83E0A6E5C3B1E /* ObjCPPFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjCPPFramework-prefix.pch"; sourceTree = "<group>"; };
+		AC1DBE7590C87DF1AC85220851ED2767 /* ObjCppRandomiser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjCppRandomiser.h; path = ObjCPPFramework/Classes/ObjCppRandomiser.h; sourceTree = "<group>"; };
+		ADB8736E7C8E84D904AAF4A1186A4660 /* ObjCppRandomiser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ObjCppRandomiser.mm; path = ObjCPPFramework/Classes/ObjCppRandomiser.mm; sourceTree = "<group>"; };
 		C481B5AAC1B55782E264BC1FDAE82156 /* Pods-ObjCPPFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCPPFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		C6B9D901E91F2BCD535511629BF65E88 /* ObjCPPFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjCPPFramework.modulemap; sourceTree = "<group>"; };
 		CC367A5DB91C6388244F556DC55AC1F3 /* Pods-ObjCPPFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCPPFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D07ADB2F5E8B8A49E40EA8C20E9C4D0B /* ObjCPPFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjCPPFramework.xcconfig; sourceTree = "<group>"; };
 		D5408E3F48A2406BD6750F073E9E56E2 /* Pods-ObjCPPFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCPPFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DDC19882114E1AA82228AA52869A5912 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E4B7F149A0CDF7537DE0BBA60059C827 /* Pods-ObjCPPFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCPPFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EDADD9557D25A2C1F64BCDCC1468A109 /* ObjCPPFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjCPPFramework-dummy.m"; sourceTree = "<group>"; };
 		F78163319452593B6694519D29A526D4 /* libPods-ObjCPPFramework_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ObjCPPFramework_Example.a"; path = "libPods-ObjCPPFramework_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD831A88E6FAE2D001BE7A7CBDA2AE6D /* Pods-ObjCPPFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCPPFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		651CAE040919E6336B6C17B5B616F370 /* Frameworks */ = {
+		0B6E6221DF828F5385C13FD6F2305635 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,6 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02BCCFC85BCFD3AB6FB363B9C2C77BDF /* ObjCPPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6846980A855F04A14BF221F8841AA0A1 /* module.modulemap */,
+				AC1DBE7590C87DF1AC85220851ED2767 /* ObjCppRandomiser.h */,
+				ADB8736E7C8E84D904AAF4A1186A4660 /* ObjCppRandomiser.mm */,
+				0D5ABC8C6B17C7A906733825C61A9144 /* Randomiser.cpp */,
+				A4978B0852EAA3FB663A220CA75C827F /* Randomiser.h */,
+				632C1F1A56DD34D5DCBC68E6654646BA /* Pod */,
+				6DB03E7F42CE1A93334EB6D9F8F0284C /* Support Files */,
+			);
+			name = ObjCPPFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		11014F9885F7C9D09F5134E9AEA614F4 /* Pods-ObjCPPFramework_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +126,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		276D2B75DF409F09484E079103BE49D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02BCCFC85BCFD3AB6FB363B9C2C77BDF /* ObjCPPFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3398092C1E7394B7F25C26480FD23784 /* Pods-ObjCPPFramework_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +147,14 @@
 			path = "Target Support Files/Pods-ObjCPPFramework_Example";
 			sourceTree = "<group>";
 		};
-		46CF8CF4A3F2862C980FF5FB023FF7AC /* Development Pods */ = {
+		632C1F1A56DD34D5DCBC68E6654646BA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DF8DA3D5801A2C9326F209ADEA173897 /* ObjCPPFramework */,
+				79673C4A74F6492B4BD8A736057761AD /* LICENSE */,
+				582BFE330690F0545BF56AA887E8C9DB /* ObjCPPFramework.podspec */,
+				8EC14E153552C2AEE88D87F4A81BC311 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6C0C078784F91F89EA6344EB5FD66439 /* Targets Support Files */ = {
@@ -137,33 +166,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79B2055386F420097954EFACD7256F6B /* Support Files */ = {
+		6DB03E7F42CE1A93334EB6D9F8F0284C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C6B9D901E91F2BCD535511629BF65E88 /* ObjCPPFramework.modulemap */,
-				BEDB6CDE9B4797CF10A71033FFDF5C4C /* ObjCPPFramework.xcconfig */,
-				EDADD9557D25A2C1F64BCDCC1468A109 /* ObjCPPFramework-dummy.m */,
-				06E4A54B0FF39736B2FE120160DA1CC9 /* ObjCPPFramework-prefix.pch */,
+				38BBF9E09C7699CF9AEBB17C367A5B7D /* ObjCPPFramework.modulemap */,
+				D07ADB2F5E8B8A49E40EA8C20E9C4D0B /* ObjCPPFramework.xcconfig */,
+				2E477673D69D897EE5B5A46A9DB1411B /* ObjCPPFramework-dummy.m */,
+				ABB65407D9C2CCEC2EA83E0A6E5C3B1E /* ObjCPPFramework-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ObjCPPFramework";
-			sourceTree = "<group>";
-		};
-		9B948251B0EA1D9612B72B63464610CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B742C245AE170915EF7699F8EC656A62 /* LICENSE */,
-				BBFB9DAF63731D8D95E2F280E293CAE7 /* ObjCPPFramework.podspec */,
-				DDC19882114E1AA82228AA52869A5912 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				46CF8CF4A3F2862C980FF5FB023FF7AC /* Development Pods */,
+				276D2B75DF409F09484E079103BE49D8 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				20AEB24D64DD7C6E50DDB0F6D05036E5 /* Products */,
 				6C0C078784F91F89EA6344EB5FD66439 /* Targets Support Files */,
@@ -177,30 +196,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF8DA3D5801A2C9326F209ADEA173897 /* ObjCPPFramework */ = {
-			isa = PBXGroup;
-			children = (
-				6A877AFE9C1DD00DB44A79BD23AF702F /* module.modulemap */,
-				9365BE5FA3722DBAF744F56FD01FC1E7 /* Randomiser.h */,
-				58A558920359AC2C7EACEE024E1313A8 /* Randomiser.mm */,
-				9B948251B0EA1D9612B72B63464610CF /* Pod */,
-				79B2055386F420097954EFACD7256F6B /* Support Files */,
-			);
-			name = ObjCPPFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5BDF71942B4B7E27A736AD514191FAAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BA6A9FC7D1D0778A58CEF5FAE6A29F3 /* Randomiser.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70F4642C988614C3E1C551C674599ACD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +210,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F4853AA8C58D16E3172C838BDFD919 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60A0CA5038FB422E111966FBDEB854 /* ObjCppRandomiser.h in Headers */,
+				EB38F8C535C0EAFA744F59F8FDE819F1 /* Randomiser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +263,11 @@
 		};
 		E61162E5F145C222EB9D79AA8F102FAD /* ObjCPPFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2772763F64F2618353D98558EB7B4B23 /* Build configuration list for PBXNativeTarget "ObjCPPFramework" */;
+			buildConfigurationList = D2292632BC60330520FDA1AB4CFE2C44 /* Build configuration list for PBXNativeTarget "ObjCPPFramework" */;
 			buildPhases = (
-				5BDF71942B4B7E27A736AD514191FAAD /* Headers */,
-				67685D1E29D7824CA47125EC4817AEA5 /* Sources */,
-				651CAE040919E6336B6C17B5B616F370 /* Frameworks */,
+				F3F4853AA8C58D16E3172C838BDFD919 /* Headers */,
+				E62E2AC66F1CBCCC43453B42C57FD666 /* Sources */,
+				0B6E6221DF828F5385C13FD6F2305635 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,21 +316,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67685D1E29D7824CA47125EC4817AEA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A88AD87774C751F851975BBB352F2D9E /* module.modulemap in Sources */,
-				832ADB1E1952D74C68FA5491A63C0613 /* ObjCPPFramework-dummy.m in Sources */,
-				AD171F3F76178F5148247A4BEEB07E56 /* Randomiser.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C2A0726EC3792FB4BCD74B74896003C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D66C62006E86FA616427B3834E01E5A /* Pods-ObjCPPFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62E2AC66F1CBCCC43453B42C57FD666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC69CFA17E3ED7D85464F0C61EB662 /* module.modulemap in Sources */,
+				20471D3BB230B6052EAF43A72EFEF350 /* ObjCPPFramework-dummy.m in Sources */,
+				C8FB7402A36C015EB52FBCD4F68140C4 /* ObjCppRandomiser.mm in Sources */,
+				8D651BB48C64EFFA2D6E8E3AFBB84157 /* Randomiser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,32 @@
 			};
 			name = Release;
 		};
+		624895663E940C6E03F4F31F85BABD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07ADB2F5E8B8A49E40EA8C20E9C4D0B /* ObjCPPFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjCPPFramework/ObjCPPFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Private/ObjCPPFramework/ObjCPPFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ObjCPPFramework;
+				PRODUCT_NAME = ObjCPPFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,9 +546,9 @@
 			};
 			name = Debug;
 		};
-		CDAF32E10AD1388C57B38FC3231F1C6D /* Release */ = {
+		BA0006B6F91011F663B39C58B9B1C1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDB6CDE9B4797CF10A71033FFDF5C4C /* ObjCPPFramework.xcconfig */;
+			baseConfigurationReference = D07ADB2F5E8B8A49E40EA8C20E9C4D0B /* ObjCPPFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -534,9 +568,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		EB49ECD01A2F75BE919EBE582BBF36DE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -581,43 +614,9 @@
 			};
 			name = Release;
 		};
-		FD8A808128476B652D0244EAB28FD476 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDB6CDE9B4797CF10A71033FFDF5C4C /* ObjCPPFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ObjCPPFramework/ObjCPPFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Private/ObjCPPFramework/ObjCPPFramework.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ObjCPPFramework;
-				PRODUCT_NAME = ObjCPPFramework;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2772763F64F2618353D98558EB7B4B23 /* Build configuration list for PBXNativeTarget "ObjCPPFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD8A808128476B652D0244EAB28FD476 /* Debug */,
-				CDAF32E10AD1388C57B38FC3231F1C6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		30168C21185A31FDAF727A5568DCA6C3 /* Build configuration list for PBXNativeTarget "Pods-ObjCPPFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -641,6 +640,15 @@
 			buildConfigurations = (
 				B660CE5988C41DBA7B79F211529670BF /* Debug */,
 				560C9FACFA29CB1319680B25ABBD2845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2292632BC60330520FDA1AB4CFE2C44 /* Build configuration list for PBXNativeTarget "ObjCPPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0006B6F91011F663B39C58B9B1C1C2 /* Debug */,
+				624895663E940C6E03F4F31F85BABD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
