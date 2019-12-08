@@ -1,4 +1,4 @@
 module ObjCPPFramework {
-    header "Randomiser.h"
+    header "ObjCppRandomiser.h"
     export *
 }
